@@ -1,0 +1,101 @@
+#footer {
+  background-color: #111;
+  width: 100%;
+}
+#footer .move {
+  display: flex;
+  padding: 5vw 0;
+  background-color: #ffb627;
+  color: #111;
+  overflow: hidden;
+}
+.move img {
+  height: 5vw;
+}
+.marque {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 6vw;
+  padding: 0 1.5vw;
+  transform: translateX(-100%);
+}
+.marque h1 {
+  font-family: "Neue Machina";
+  font-size: 5vw;
+}
+#footer .footer-last {
+  color: #fafafa;
+  width: 100%;
+  padding: 0 2.8vw;
+  padding-bottom: 4.5vw;
+}
+#footer .footer-last .up {
+  margin: 7.5vw 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.up .Uleft {
+  display: flex;
+  gap: 8vw;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.up .Uright {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  align-items: flex-end;
+}
+.up h2 {
+  color: #ffb627;
+  text-transform: uppercase;
+  font-size: 1.3vw;
+  font-weight: 400;
+  margin-bottom: 3vw;
+  letter-spacing: -0.05vw;
+}
+.up h3 {
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 2.1vw;
+}
+.up h1 {
+  font-size: 3.5vw;
+  font-weight: 100;
+  line-height: 1.8;
+}
+.footer-last .down {
+  margin: 0vw 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.down .Dleft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+.Dleft .width {
+  width: 13vw;
+  font-size: 1vw;
+  line-height: 1.2;
+  word-spacing: 0.1vw;
+}
+.down .Dright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+}
+.down .underline {
+  text-decoration: underline;
+}
+.down h2 {
+  line-height: 2.4;
+  font-size: 1.1vw;
+  font-weight: 100;
+}

@@ -1,0 +1,31 @@
+@media (max-width: 1020px) {
+  .ArPage-1 .ArHeading {
+    top: 25%;
+  }
+}
+@media (max-width: 650px) {
+  .ArPage-1 .ArHeading {
+    left: 4%;
+    top: 40%;
+  }
+  .ArPage-1 img {
+    width: 70vw;
+    height: 70vw;
+  }
+  .ArPage-1 .ArHeading h1 {
+    font-size: 20vw;
+  }
+}
+@media (max-width: 420px) {
+  .ArPage-1 {
+    height: 80vh;
+    width: 100%;
+  }
+  .ArPage-1 .ArHeading {
+    left: 2%;
+  }
+  .ArPage-1 img {
+    width: 75vw;
+    height: 75vw;
+  }
+}

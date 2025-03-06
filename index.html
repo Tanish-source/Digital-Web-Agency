@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>brandium.nl</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+      integrity="sha256-TryXbHoOGuTSpAGc8mP33sWvAKI+fhvU4AZZ0LPaesk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="ResponsiveIndex.css" />
+    <link rel="stylesheet" href="ResponsiveNavFooter.css" />
+  </head>
+  <body>
+    <audio src="assets/tick.wav" id="tickSound"></audio>
+    <div id="cursor"></div>
+    <div id="home">
+      <section class="menuBar">
+        <div class="close" onclick="MenuBarClose()">
+          <i class="ri-close-large-line"></i>
+        </div>
+        <div class="content">
+          <div class="first">
+            <h3>Menu</h3>
+            <div class="line" style="margin-right: 6vw"></div>
+          </div>
+          <div class="second">
+            <div class="line" style="width: 100%"></div>
+          </div>
+          <div class="third">
+            <div class="navigation">
+              <a href="index.html">Home</a>
+              <a href="Work.html">Work</a>
+              <a href="Services.html">Services</a>
+              <a href="Agency.html">Agency</a>
+              <a href="Archive.html">Archive</a>
+              <a href="Contact.html">Contact</a>
+            </div>
+            <div class="socialMedia">
+              <a
+                href="https://www.linkedin.com/in/tanish-patel-99579b339/"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <a href="https://www.instagram.com/29tanish_patel/">Instagram</a>
+              <a href="https://www.facebook.com/gitaben.patel.18488"
+                >Facebook</a
+              >
+              <a href="https://www.awwwards.com/">Awwwards</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page-1" id="target">
+        <div
+          class="navbar"
+          data-scroll
+          data-scroll-sticky
+          data-scroll-target="#target"
+        >
+          <a href="index.html">
+            <div class="logo">
+              <img src="assets/images/logo.svg" alt="" />
+            </div>
+          </a>
+          <div class="nav">
+            <a href="Work.html">
+              <h2>work</h2>
+            </a>
+            <a href="Agency.html">
+              <h2>agency</h2>
+            </a>
+            <a href="Services.html">
+              <h2>services</h2>
+            </a>
+            <a href="Archive.html">
+              <h2>archive</h2>
+            </a>
+            <a href="Contact.html">
+              <h2>contact</h2>
+            </a>
+          </div>
+          <div class="Responsive" onclick="MenuBarOpen()">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <div class="fir">
+          <img src="assets/images/hero-back2.jpeg" alt="" />
+        </div>
+        <div class="sec">
+          <img src="assets/images/hero-back2-removebg.png" alt="" />
+        </div>
+        <div class="heading" data-scroll data-scroll-speed="4">
+          <div class="bounding">
+            <h1>We</h1>
+          </div>
+          <div class="bounding">
+            <h1>Design</h1>
+          </div>
+          <div class="bounding">
+            <h1>Digital</h1>
+          </div>
+          <div class="bounding">
+            <h1>Experiences</h1>
+          </div>
+        </div>
+      </section>
+      <section id="page-2">
+        <div class="whatwedo">
+          <h3>What we do</h3>
+          <h1>
+            At Brandium® we craft strong brand identities, visually striking
+            website designs, and impactful marketing campaigns that go beyond
+            the ordinary. We transform your business into a digital powerhouse.
+          </h1>
+          <a href="Contact.html" style="text-decoration: none">
+            <button class="btn">
+              <h2 class="h2">I'm ready to grow</h2>
+              <div class="hover">
+                <i class="ri-arrow-right-up-line"></i>
+              </div>
+            </button>
+          </a>
+        </div>
+        <div class="feturedwork">
+          <div class="text">
+            <h1>fetured</h1>
+            <h1>work</h1>
+          </div>
+          <div class="work">
+            <div class="item">
+              <a href="Work.html">
+                <div class="img">
+                  <img src="assets/images/img2.webp" alt="" />
+                </div>
+              </a>
+              <div class="caption">
+                <h1>De Online Psycholoog</h1>
+                <h2>Website, Logo design, Photography</h2>
+              </div>
+            </div>
+            <div class="item">
+              <a href="Work.html">
+                <div class="img">
+                  <video
+                    src="assets/videos/img1.mp4"
+                    autoplay
+                    loop
+                    muted
+                  ></video>
+                </div>
+              </a>
+              <div class="caption">
+                <h1>Loop Earplugs</h1>
+                <h2>Webdesign, Branding, E-commerce, UX/UI</h2>
+              </div>
+            </div>
+            <div class="item">
+              <a href="Work.html">
+                <div class="img">
+                  <img src="assets/images/img3.webp" alt="" />
+                </div>
+              </a>
+              <div class="caption">
+                <h1>Apostrophe</h1>
+                <h2>Branding, E-commerce, UX/UI</h2>
+              </div>
+            </div>
+            <div class="item">
+              <a href="Work.html">
+                <div class="img">
+                  <img src="assets/images/img4.jpg" alt="" />
+                </div>
+              </a>
+              <div class="caption">
+                <h1>Pad Thai</h1>
+                <h2>Branding, E-commerce, UX/UI</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page2-foot">
+          <div class="foot-details">
+            <h3>
+              We've carved out our expertise in branding, webdesign,
+              development, and crafting distinctive digital products. Our aim is
+              always to empower brands that want to push boundaries, build
+              influence and make their mark in the digital landscape.
+            </h3>
+            <a href="Work.html" style="text-decoration: none">
+              <button class="btn">
+                <h2 class="h2">View more projects</h2>
+                <div class="hover">
+                  <i class="ri-arrow-right-up-line"></i>
+                </div>
+              </button>
+            </a>
+          </div>
+          <div class="string">
+            <svg width="1150" height="350">
+              <path
+                d="M 0 175 Q 575 175 1150 175"
+                stroke="#fafafa"
+                stroke-width="2"
+                fill="transparent"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section id="page-3">
+        <div class="heading-text">
+          <h1>where we</h1>
+          <h1>thrive</h1>
+        </div>
+        <div class="page3-footer">
+          <div class="elem">
+            <img src="assets/images/f1.jpg" alt="" />
+            <h1>branding & identity</h1>
+            <div class="Fanimation"></div>
+          </div>
+          <div class="elem">
+            <img src="assets/images/f2.jpg" alt="" />
+            <h1>web design & development</h1>
+            <div class="Fanimation"></div>
+          </div>
+          <div class="elem">
+            <img src="assets/images/f3.jpg" alt="" />
+            <h1>e-commerce & growth</h1>
+            <div class="Fanimation"></div>
+          </div>
+          <div class="elem bottom">
+            <img src="assets/images/f4.jpg" alt="" />
+            <h1>graphic design & motion</h1>
+            <div class="Fanimation"></div>
+          </div>
+          <a href="Contact.html" style="text-decoration: none">
+            <button class="btn button">
+              <h2>Elevate my business</h2>
+              <div class="hover" style="background-color: #111">
+                <i class="ri-arrow-right-up-line" style="color: #fafafa"></i>
+              </div>
+            </button>
+          </a>
+        </div>
+        <div class="customer">
+          <div class="customer-heading">
+            <h1>clients we</h1>
+            <h1>call family</h1>
+          </div>
+          <div class="customer-details">
+            <a href=""><img src="assets/images/logo1.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo2.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo3.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo4.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo5.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo6.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo7.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo8.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo9.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo10.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo11.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo12.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo13.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo14.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo15.png" alt="" /></a>
+            <a href=""><img src="assets/images/logo16.png" alt="" /></a>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <div class="move">
+          <div class="marque">
+            <h1>thrive beyond limit</h1>
+            <img src="assets/images/arrow-br.svg" alt="" />
+          </div>
+          <div class="marque">
+            <h1>thrive beyond limit</h1>
+            <img src="assets/images/arrow-br.svg" alt="" />
+          </div>
+          <div class="marque">
+            <h1>thrive beyond limit</h1>
+            <img src="assets/images/arrow-br.svg" alt="" />
+          </div>
+          <div class="marque">
+            <h1>thrive beyond limit</h1>
+            <img src="assets/images/arrow-br.svg" alt="" />
+          </div>
+          <div class="marque">
+            <h1>thrive beyond limit</h1>
+            <img src="assets/images/arrow-br.svg" alt="" />
+          </div>
+          <div class="marque">
+            <h1>thrive beyond limit</h1>
+            <img src="assets/images/arrow-br.svg" alt="" />
+          </div>
+        </div>
+        <div class="footer-last">
+          <div class="up">
+            <div class="Uleft">
+              <div class="first">
+                <h2>follow us</h2>
+                <h3>Awwwards</h3>
+                <h3>linkedin</h3>
+                <h3>instagram</h3>
+                <h3>facebook</h3>
+              </div>
+              <div class="second">
+                <h2>navigation</h2>
+                <h3>work</h3>
+                <h3>agency</h3>
+                <h3>services</h3>
+                <h3>Archive</h3>
+                <h3>contact</h3>
+              </div>
+            </div>
+            <div class="Uright">
+              <h2>let's connect</h2>
+              <h1>tanishpatel@gmail.com</h1>
+              <h1>+91 7600367960</h1>
+            </div>
+          </div>
+          <div class="down">
+            <div class="Dleft">
+              <h2>Brandium® Agency</h2>
+              <h2 class="width">
+                Bos en Lommerplein 280 1055 RW Amsterdam The Netherlands
+              </h2>
+            </div>
+            <div class="Dright">
+              <h2>All rights reserved | 2025</h2>
+              <h2 class="underline">Terms and Conditions</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"
+      integrity="sha256-odlNpseyKe/Yr2FVkKfof6CSj8+edbarxw5hDpqCGBE="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      const scroll = new LocomotiveScroll({
+        el: document.querySelector("#home"),
+        smooth: true,
+      });
+
+      scroll.on("scroll", (position) => {
+        const fixedElement = document.querySelector(".navbar");
+        fixedElement.style.transform = `translateY(${position.scroll.y}px)`;
+      });
+
+      scroll.on("scroll", (position) => {
+        const fixedElement = document.querySelector(".menuBar");
+        fixedElement.style.transform = `translateY(${position.scroll.y}px)`;
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

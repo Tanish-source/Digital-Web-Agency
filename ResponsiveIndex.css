@@ -1,0 +1,202 @@
+@media (min-width: 820px) and (max-width: 1000px) {
+  .btn h2 {
+    font-size: 1.5vw;
+  }
+  .btn .hover {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+  .string {
+    display: none;
+  }
+  .page2-foot .foot-details {
+    margin-bottom: 15vw;
+  }
+}
+@media (max-width: 820px) {
+  .page-1,
+  .page-1 .fir,
+  .page-1 .sec {
+    height: 100vh;
+  }
+  .page-1 .heading {
+    margin-top: 30vw;
+  }
+  .page-1 .heading h1 {
+    font-size: 19vw;
+  }
+  .whatwedo h3 {
+    font-size: 2vw;
+  }
+  .btn h2 {
+    font-size: 2vw;
+    padding: 0.7vw 1vw;
+    margin-right: 0vw;
+  }
+  .btn .hover {
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hover i {
+    padding-top: 1vw;
+    padding-right: 1.5vw;
+    font-size: 3vw;
+  }
+  .caption h1 {
+    margin: 0.9vw 0;
+    font-size: 2.5vw;
+  }
+  .caption h2 {
+    font-size: 1.7vw;
+  }
+  .page2-foot h3 {
+    width: 61%;
+    font-size: 2.7vw;
+    margin-bottom: -9vw;
+  }
+  .customer-details a {
+    margin-bottom: 4.2vw;
+    width: 22vw;
+    height: 8vw;
+  }
+  .string {
+    display: none;
+  }
+  .page2-foot .foot-details {
+    margin-bottom: 20vw;
+  }
+}
+@media (max-width: 600px) {
+  .page-1,
+  .page-1 .fir,
+  .page-1 .sec {
+    height: 80vh;
+  }
+  .feturedwork .work {
+    margin-left: -12vw;
+    margin-bottom: 10vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 130%;
+  }
+  .heading-text {
+    margin-top: 20vw;
+  }
+  .string {
+    display: none;
+  }
+  .btn h2 {
+    font-size: 2.5vw;
+  }
+  .btn .hover {
+    width: 3.1vw;
+    height: 3.1vw;
+  }
+  .hover i {
+    padding-left: 0.1vw;
+    padding-bottom: 0.95vw;
+  }
+}
+@media (max-width: 450px) {
+  .page-1,
+  .page-1 .fir,
+  .page-1 .sec {
+    height: 100vh;
+  }
+  .page-1 .heading h1 {
+    font-size: 22vw;
+  }
+  .page-1 .heading {
+    margin-top: 50vw;
+  }
+  .whatwedo h3 {
+    font-size: 2.8vw;
+    margin-bottom: 4vw;
+  }
+  .whatwedo h1 {
+    font-size: 5.2vw;
+    width: 100%;
+    margin-bottom: 6vw;
+  }
+  .btn h2 {
+    font-size: 3.5vw;
+    padding: 1vw 1.5vw;
+  }
+  .btn .hover {
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hover i {
+    padding-left: 0.3vw;
+    padding-right: 1.8vw;
+    padding-top: 0.1vw;
+    font-size: 4.5vw;
+    margin-left: -0.1vw;
+  }
+  .feturedwork .text {
+    margin-bottom: 20vw;
+    margin-top: 25vw;
+  }
+  .text h1 {
+    font-size: 18vw;
+  }
+  .feturedwork .work {
+    margin-left: -1vw;
+    margin-bottom: 18vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .work .item {
+    overflow: hidden;
+    width: 68%;
+    height: 100vw;
+  }
+  .caption h1 {
+    font-size: 5vw;
+    margin: 1.6vw 0;
+  }
+  .caption h2 {
+    font-size: 2.4vw;
+  }
+  .page2-foot .foot-details {
+    margin-left: 5.5vw;
+    gap: 18vw;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .page2-foot h3 {
+    width: 100%;
+    font-size: 5.2vw;
+  }
+  .page3-footer {
+    margin-bottom: 17vw;
+  }
+  .heading-text {
+    margin-bottom: 20vw;
+  }
+  .heading-text h1 {
+    font-size: 16vw;
+  }
+  .page3-footer .elem h1 {
+    font-size: 6.3vw;
+  }
+  .customer .customer-heading {
+    margin-bottom: 15vw;
+  }
+  .customer-heading h1 {
+    font-size: 17.5vw;
+  }
+  .customer-details a {
+    width: 32vw;
+    height: 12vw;
+  }
+}

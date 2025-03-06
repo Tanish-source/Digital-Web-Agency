@@ -1,0 +1,205 @@
+@media (min-width: 820px) and (max-width: 1000px) {
+  .btn h2 {
+    font-size: 1.8vw;
+  }
+  .btn .hover {
+    width: 1.6vw;
+    height: 1.6vw;
+  }
+  .btn .hover i {
+    padding: 0;
+    padding-bottom: 0.5vw;
+  }
+  .Dec h1 {
+    font-family: "Neue Machina";
+    font-size: 2vw;
+    letter-spacing: -0.16vw;
+    font-weight: 100;
+  }
+  .Dec h4 {
+    font-weight: 100;
+    font-size: 1.4vw;
+    word-spacing: -0.1vw;
+    letter-spacing: -0.01vw;
+  }
+}
+@media (max-width: 820px) {
+  .btn h2 {
+    font-size: 2vw;
+    padding: 0.7vw 1vw;
+    margin-right: 0vw;
+  }
+  .btn .hover {
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hover i {
+    padding: 0;
+    padding-top: 0.5vw;
+    padding-right: 0.5vw;
+    font-size: 3vw;
+  }
+  .Aheading h3 {
+    font-size: 1.8vw;
+  }
+  .Aheading h1 {
+    font-size: 13.3vw;
+  }
+  .Apage-2 .text {
+    padding-top: 13vw;
+    padding-bottom: 10vw;
+  }
+  .Apage-2 .SelectedPro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .SelectedPro .Simg {
+    width: 54%;
+    height: 83vw;
+  }
+  .Dec h1 {
+    font-size: 3vw;
+  }
+  .Dec h4 {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 600px) {
+  .btn h2 {
+    font-size: 2.5vw;
+  }
+  .btn .hover {
+    width: 3.1vw;
+    height: 3.1vw;
+  }
+  .hover i {
+    padding: 0;
+    padding-bottom: 1vw;
+  }
+  .Aheading {
+    padding-top: 10vw;
+  }
+  .Aheading h3 {
+    font-size: 2.5vw;
+  }
+  .Aheading h1 {
+    font-size: 16vw;
+  }
+  .Adescription h3 {
+    font-size: 3.98vw;
+  }
+  .Adescription .Hero-img {
+    width: 100%;
+    height: 80vh;
+  }
+  .main-description .firstDec,
+  .main-description .thirdDec {
+    flex-direction: column;
+    gap: 10vw;
+  }
+  .main-description .secondDec {
+    flex-direction: column-reverse;
+    gap: 8vw;
+  }
+  .main-description h1 {
+    width: 100%;
+    font-size: 6vw;
+    text-align: right;
+  }
+  .main-description h2 {
+    width: 75%;
+    line-height: 1.2;
+  }
+  .main-description .thirdDec .special {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+  }
+  .main-description .thirdDec .special h2 {
+    width: 100%;
+  }
+  .Apage-2 .SelectedPro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .SelectedPro .Simg {
+    width: 65%;
+    height: 95vw;
+  }
+  .Dec h1 {
+    font-size: 4.2vw;
+  }
+  .Dec h4 {
+    font-size: 2.6vw;
+  }
+  .text h1 {
+    font-size: 17vw;
+  }
+}
+@media (max-width: 450px) {
+  .btn h2 {
+    font-size: 3.5vw;
+    padding: 1vw 1.5vw;
+  }
+  .btn .hover {
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hover i {
+    padding: 0;
+    padding-left: 0.2vw;
+    padding-right: 1.8vw;
+    padding-bottom: 0.3vw;
+    font-size: 4.5vw;
+  }
+  .Aheading {
+    padding-top: 20vw;
+  }
+  .Aheading h3 {
+    font-size: 3.3vw;
+  }
+  .Aheading h1 {
+    font-size: 17.2vw;
+  }
+  .Adescription h3 {
+    font-size: 5.5vw;
+  }
+  .Adescription .Hero-img {
+    width: 100%;
+    height: 60vh;
+  }
+  .main-description {
+    gap: 35vw;
+  }
+  .main-description h1 {
+    font-size: 8vw;
+  }
+  .main-description h2 {
+    font-size: 5.8vw;
+  }
+  .SelectedPro .Simg {
+    width: 75%;
+    height: 110vw;
+  }
+  .Dec h1 {
+    font-size: 4.9vw;
+    letter-spacing: -0.1vw;
+  }
+  .Dec h4 {
+    font-size: 2.8vw;
+  }
+  .text h1 {
+    font-size: 18vw;
+  }
+}
