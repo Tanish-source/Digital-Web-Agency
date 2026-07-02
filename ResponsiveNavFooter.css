@@ -12,7 +12,7 @@
     padding-top: 3vw;
   }
   .navbar .logo {
-    width: 3vw;
+    width: auto;
     height: 4vw;
   }
   .nav h2 {
@@ -33,7 +33,7 @@
     display: none;
   }
   .navbar .logo {
-    width: 4vw;
+    width: auto;
     height: 5vw;
   }
   .navbar .Responsive {
@@ -49,7 +49,7 @@
 @media (max-width: 600px) {
   .navbar .logo {
     display: flex;
-    width: 5vw;
+    width: auto;
     height: 6vw;
   }
   .navbar .Responsive {
@@ -81,7 +81,7 @@
   }
   .navbar .logo {
     display: flex;
-    width: 6vw;
+    width: auto;
     height: 7vw;
   }
   .navbar .Responsive {

@@ -22,13 +22,13 @@
 }
 .navbar .logo {
   z-index: 99999;
-  width: 2vw;
+  width: auto;
   height: 3vw;
   background-color: transparent;
   overflow: hidden; /* To ensure the pseudo-element doesn't spill out */
 }
 .navbar .logo img {
-  width: 100%;
+  width: auto;
   height: 100%;
   object-fit: cover;
 }

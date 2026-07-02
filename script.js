@@ -288,7 +288,7 @@ function ImageTrailing() {
         .filter((num) => ![8, 12, 29, 38, 42, 45, 46].includes(num))
         .map(
           (num) =>
-            `/assets/images/${num}.${[43, 44].includes(num) ? "webp" : "jpg"}`
+            `assets/images/${num}.${[43, 44].includes(num) ? "webp" : "jpg"}`
         ),
     ];
 
